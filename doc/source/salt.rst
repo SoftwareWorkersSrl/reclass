@@ -54,7 +54,7 @@ following steps have already been prepared.
    ``$HOME/reclass-config.yml``::
 
       storage_type: yaml_fs
-      base_inventory_uri: /srv/reclass
+      inventory_base_uri: /srv/reclass
 
    Or you can reuse the first entry of ``file_roots`` under ``base`` in the Salt
    master config.
